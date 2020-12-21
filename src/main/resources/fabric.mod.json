@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "binhcoiminihud",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "BinhCoi Mini HUD Mod",
+  "description": "Simple head up display for minecraft with fps count, coordinates, direction, game time, and light level",
   "authors": [
-    "Me!"
+    "binhcoi"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://binhcoi.com/",
+    "sources": "https://github.com/binhcoi/MCMiniHUD"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/binhcoiminihud/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.binhcoi.mcmods.binhcoiminihud.MiniHudMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "binhcoiminihud.mixins.json"
   ],
 
   "depends": {
